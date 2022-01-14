@@ -110,4 +110,80 @@ background-color: ;
      grid-template-columns: repeat(3,1fr);
      margin-left: 96px;
      margin-right: 96px;
+     margin-bottom: 50px;
+ }
+ .see-more{
+     text-decoration: none;
+     color:#E02C6D;
+     font-size: 16px;
+     font-weight: 700;
+     display: flex;
+     justify-content: right;
+     align-items: center;
+     margin-right: 221px;
+
+ }
+ 
+ .icon-gap{
+     margin-right: 10px;
+ }
+
+
+ /* extra features styles  */
+
+ .order-confirm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+    
+ }
+ .order-confirm img{
+     width:100%;
+ }
+ .img{
+     width:40%;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+ .dimension{
+     width:40%;
+     height:380px;
+     border-radius: 9px;
+     box-shadow: 5px 10px 8px 10px gainsboro;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-right: 5%;
+     margin-left: 5%;
+    
+ }
+ .input{
+     width:30.5em;
+     padding:10px 50px;
+     margin-bottom: 10px;
+     box-shadow: 2px 2px 2px gainsboro;
+     border-radius: 5px;
+
+ }
+ .login-button{
+     background-color: #E02C6D;
+     padding:8px;
+     border:1px #E02C6D;
+     border-radius: 2px;
+     font-size: 16px;
+     color:white;
+     text-align: center;
+ }
+ .center{
+     text-align: center;
+     color:rgb(25, 25, 129);
+     font-weight: 700;
+ }
+ .sign-in{
+     text-align: center;
+     color:plum;
+     font-size: 28px;
+     font-weight: 700;
+
  }
