@@ -16,10 +16,48 @@ margin: 0;
 /* navigation section style  */
 /* -----------------------  */
 .nav-section{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 87px;
 }
+.nav-header{
+    margin-left: 120px;
+}
+.nav-item{
+    margin-right: 120px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    margin-left: 34px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-item span{
+    margin-left: 34px;
+}
+/* ---------------------------  */
+/* company-logo  */
+.company-logo{
+    border: 0.5px dashed gray ;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+}
+.company-logo img{
+
+    margin-left: 75px;
+    padding:4px;
+    width:55px;
+    height: 31px;
+}
+
+
+
 
 /* -------------- */
 /* product introduction  */
